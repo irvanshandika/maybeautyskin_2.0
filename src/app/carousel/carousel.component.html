@@ -1,1 +1,11 @@
-<p>carousel works!</p>
+<section id="project" class="z-0">
+  <div class="block max-w-7xl py-28 mx-auto lg:text-xl">
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+      <div class="relative h-56 overflow-hidden rounded-lg md:h-96 z-0">
+        <div class="hidden duration-700 ease-in-out" *ngFor="let items of carouselItems" data-carousel-item>
+          <img src="{{ items.imageUrl }}" class="absolute block lg:w-[400px] w-[230px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="{{ items.alt }}" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

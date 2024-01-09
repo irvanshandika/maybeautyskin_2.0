@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         "google" : ["Google Sans", "sans-serif"],
+        "roboto" : ["Roboto Sans", "sans-serif"],
       },
     },
   },
