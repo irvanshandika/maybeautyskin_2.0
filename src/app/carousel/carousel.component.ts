@@ -9,7 +9,7 @@ import { CommonModule } from "@angular/common";
   styleUrl: "./carousel.component.css",
 })
 export class CarouselComponent {
-  array = [1, 2, 3, 4];
+  title = "May Beauty Skin";
   carouselItems = [
     {
       imageUrl: "https://down-id.img.susercontent.com/file/id-11134207-7r98y-lmr9pwcelg6cb3",
