@@ -1,9 +1,9 @@
 <section>
   <div class="block max-w-7xl py-28 mx-auto lg:text-xl">
-    <div class="flex justify-center">
+    <div class="flex justify-center mb-5">
       <h4 class="text-3xl font-semibold">Kategori Produk</h4>
     </div>
-    <div class="lg:flex grid justify-center gap-4 mt-4 lg:grid-cols-3">
+    <div class="flex lg:flex-row flex-col justify-center items-center lg:gap-3">
       <div class="w-[300px] bg-white border border-gray-200 rounded-lg shadow" *ngFor="let items of productList">
         <div class="flex justify-center">
           <img class="rounded-lg" src="{{ items.image }}" class="mt-4" width="250" height="250" alt="{{ items.alt }}" />

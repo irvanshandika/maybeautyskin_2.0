@@ -4,7 +4,7 @@ import { ErrorpagesComponent } from "./errorpages/errorpages.component";
 import { ProdukparfumComponent } from "./produk/produkparfum/produkparfum.component";
 import { ProdukpakaianComponent } from "./produk/produkpakaian/produkpakaian.component";
 import { ProduktasComponent } from "./produk/produktas/produktas.component";
-import { PerawatanComponent } from "./produk/perawatan/perawatan.component";
+import { PerawatanComponent } from "./perawatan/perawatan.component";
 
 export const routes: Routes = [
   {
