@@ -4,14 +4,14 @@ import { FooterComponent } from "../../footer/footer.component";
 import { CommonModule } from "@angular/common";
 
 @Component({
-  selector: "app-produkpakaian",
+  selector: "app-perawatan",
   standalone: true,
   imports: [NavbarComponent, FooterComponent, CommonModule],
-  templateUrl: "./produkpakaian.component.html",
-  styleUrl: "./produkpakaian.component.css",
+  templateUrl: "./perawatan.component.html",
+  styleUrl: "./perawatan.component.css",
 })
-export class ProdukpakaianComponent {
-  listPakaian = [
+export class PerawatanComponent {
+  listPerawatan = [
     {
       images: "path/to/image1.jpg",
       name: "Product 1",

@@ -1,7 +1,7 @@
 import { Routes } from "@angular/router";
 import { HomeComponent } from "./home/home.component";
 import { ErrorpagesComponent } from "./errorpages/errorpages.component";
-import { PerawatanComponent } from "./perawatan/perawatan.component";
+import { PerawatanComponent } from "./produk/perawatan/perawatan.component";
 import { ProdukparfumComponent } from "./produk/produkparfum/produkparfum.component";
 import { ProdukpakaianComponent } from "./produk/produkpakaian/produkpakaian.component";
 import { ProduktasComponent } from "./produk/produktas/produktas.component";

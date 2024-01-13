@@ -24,7 +24,7 @@ export class ProdukparfumComponent {
       images: "path/to/image2.jpg",
       name: "Product 2",
       alt: "Alt Text 2",
-      statusProduk: "Tidak Tersedia",
+      statusProduk: "Tersedia",
       url: "/product-details2",
     },
     // Add more products as needed
