@@ -15,28 +15,28 @@ export class ProductlistComponent {
       name: "Parfum",
       alt: "Image Parfume",
       category: "Parfum",
-      url: "pages/parfum",
+      url: "parfum",
     },
     {
       image: "https://down-id.img.susercontent.com/file/id-11134207-7r98y-lnojnt9um77l33",
       name: "Pakaian",
       alt: "Image Pakaian",
       category: "Pakaian",
-      url: "pages/pakaian",
+      url: "pakaian",
     },
     {
       image: "https://down-id.img.susercontent.com/file/id-11134207-7r992-lmirbwmwmjace4",
       name: "Tas",
       alt: "Image Tas",
       category: "Tas",
-      url: "pages/tas",
+      url: "tas",
     },
     {
       image: "https://down-id.img.susercontent.com/file/id-11134207-7r98v-ln9mq5s2fgen3a",
       name: "Perawatan & Kecantikan",
       alt: "Image Perawatan & Kecantikan",
       category: "Perawatan & Kecantikan",
-      url: "pages/perawatan",
-    }
+      url: "perawatan",
+    },
   ];
 }
