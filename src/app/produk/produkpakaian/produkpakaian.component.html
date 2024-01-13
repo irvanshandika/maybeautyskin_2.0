@@ -1,15 +1,17 @@
 <app-navbar></app-navbar>
 <div class="block max-w-7xl py-28 mx-auto lg:text-xl">
   <div class="flex justify-center mb-5">
-    <h4 class="lg:text-3xl text-2xl font-semibold">Produk Parfum</h4>
+    <h4 class="lg:text-3xl text-2xl font-semibold">Produk Pakaian</h4>
   </div>
   <div class="flex lg:flex-row flex-col justify-center items-center lg:gap-3 gap-4">
-    <div class="w-[300px] bg-white border border-gray-200 rounded-lg shadow" *ngFor="let items of listPakaian">
+    <div class="w-[300px] h-[500px] bg-white border border-gray-200 rounded-lg shadow" *ngFor="let items of listPakaian">
       <div class="flex justify-center">
         <img class="rounded-lg" src="{{ items.images }}" class="mt-4" width="250" height="250" alt="{{ items.alt }}" />
       </div>
-      <div class="p-5">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">{{ items.name }}</h5>
+      <div class="p-8">
+        <div class="space-y-4">
+          <h5 class="mb-2 leading-relaxed text-xl font-bold tracking-tight text-gray-900">{{ items.name }}</h5>
+        </div>
         <div class="my-3">
           <span [ngClass]="getColorClass(items.statusProduk) + ' text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded'">
             {{ items.statusProduk }}

@@ -1,0 +1,74 @@
+svg#freepik_stories-oops-404-error-with-a-broken-robot:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #freepik--background-complete--inject-2 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideLeft;
+  animation-delay: 0s;
+}
+svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #freepik--Shadow--inject-2 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0s;
+}
+svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #freepik--oops--inject-2 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0s;
+}
+svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #freepik--error-404--inject-2 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0s;
+}
+svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #freepik--Character--inject-2 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) zoomOut;
+  animation-delay: 0s;
+}
+svg#freepik_stories-oops-404-error-with-a-broken-robot.animated #freepik--robot-parts--inject-2 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedRight;
+  animation-delay: 0s;
+}
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes zoomOut {
+  0% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes lightSpeedRight {
+  from {
+    transform: translate3d(50%, 0, 0) skewX(-20deg);
+    opacity: 0;
+  }
+  60% {
+    transform: skewX(10deg);
+    opacity: 1;
+  }
+  80% {
+    transform: skewX(-2deg);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}

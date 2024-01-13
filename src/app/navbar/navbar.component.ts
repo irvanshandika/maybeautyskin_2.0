@@ -12,19 +12,19 @@ export class NavbarComponent {
   productList = [
     {
       name: "Parfum",
-      url: "pages/parfum",
+      url: "parfum",
     },
     {
       name: "Pakaian",
-      url: "pages/pakaian",
+      url: "pakaian",
     },
     {
       name: "Tas",
-      url: "pages/tas",
+      url: "tas",
     },
     {
       name: "Perawatan & Kecantikan",
-      url: "pages/perawatan",
+      url: "perawatan",
     },
   ];
   layananKami = [

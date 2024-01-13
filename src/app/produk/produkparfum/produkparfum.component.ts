@@ -14,18 +14,18 @@ import { CommonModule } from "@angular/common";
 export class ProdukparfumComponent {
   listParfum = [
     {
-      images: "path/to/image1.jpg",
-      name: "Product 1",
-      alt: "Alt Text 1",
+      images: "https://down-id.img.susercontent.com/file/id-11134207-7r990-lmr9pwceva5g4a",
+      name: "[SUPER PREMIUM] Inspired Parfum BS Bodymist 30ml",
+      alt: "[SUPER PREMIUM] Inspired Parfum BS Bodymist 30ml",
       statusProduk: "Tersedia",
-      url: "/product-details1",
+      url: "https://shopee.co.id/-SUPER-PREMIUM-Inspired-Parfum-BS-Bodymist-30ml-i.296344657.23357633182?xptdk=7f649863-5011-44c5-93ac-9f4e857ea530",
     },
     {
-      images: "path/to/image2.jpg",
-      name: "Product 2",
-      alt: "Alt Text 2",
+      images: "https://down-id.img.susercontent.com/file/2c031903150411fd89aafeb57eecffe8",
+      name: "[Premium Quality] PART 1 inspired parfum thailand parfum murah 30ml 35ml",
+      alt: "[Premium Quality] PART 1 inspired parfum thailand parfum murah 30ml 35ml",
       statusProduk: "Tersedia",
-      url: "/product-details2",
+      url: "https://shopee.co.id/-Premium-Quality-PART-1-inspired-parfum-thailand-parfum-murah-30ml-35ml-i.296344657.3755287971?xptdk=9c06ba1a-68cf-4e8b-bfa8-979b3ee080b5",
     },
     // Add more products as needed
   ];
