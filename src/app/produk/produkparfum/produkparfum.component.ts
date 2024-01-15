@@ -3,11 +3,12 @@ import { Component } from "@angular/core";
 import { NavbarComponent } from "../../navbar/navbar.component";
 import { FooterComponent } from "../../footer/footer.component";
 import { CommonModule } from "@angular/common";
+import { NzCardModule } from "ng-zorro-antd/card";
 
 @Component({
   selector: "app-produkparfum",
   standalone: true,
-  imports: [NavbarComponent, FooterComponent, CommonModule],
+  imports: [NavbarComponent, FooterComponent, CommonModule, NzCardModule],
   templateUrl: "./produkparfum.component.html",
   styleUrls: ["./produkparfum.component.css"],
 })
@@ -27,8 +28,15 @@ export class ProdukparfumComponent {
       statusProduk: "Tersedia",
       url: "https://shopee.co.id/-Premium-Quality-PART-1-inspired-parfum-thailand-parfum-murah-30ml-35ml-i.296344657.3755287971?xptdk=9c06ba1a-68cf-4e8b-bfa8-979b3ee080b5",
     },
-    // Add more products as needed
+    {
+      images: "https://down-id.img.susercontent.com/file/id-11134207-7r98x-lmor1to1grsb18",
+      name: "[SUPER PREMIUM] Parfum Bulat Byredo 30ml",
+      alt: "[SUPER PREMIUM] Parfum Bulat Byredo 30ml",
+      statusProduk: "Tersedia",
+      url: "https://shopee.co.id/-SUPER-PREMIUM-Parfum-Bulat-Byredo-30ml-i.296344657.21185068157",
+    },
   ];
+items: any;
 
   getColorClass(status: string): string {
     return status === "Tersedia" ? "bg-green-500 text-white" : "bg-red-500 text-white";
