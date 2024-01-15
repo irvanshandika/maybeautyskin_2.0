@@ -11,6 +11,7 @@ import { CommonModule } from "@angular/common";
   styleUrl: "./produkpakaian.component.css",
 })
 export class ProdukpakaianComponent {
+  title = "Pakaian"
   listPakaian = [
     {
       images: "https://down-id.img.susercontent.com/file/id-11134207-7r98v-ln5mna8hktljaa",

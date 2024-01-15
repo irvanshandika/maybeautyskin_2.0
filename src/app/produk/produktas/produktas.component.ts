@@ -11,22 +11,15 @@ import { CommonModule } from "@angular/common";
   styleUrl: "./produktas.component.css",
 })
 export class ProduktasComponent {
+  title = "Tas";
   listTas = [
     {
-      images: "path/to/image1.jpg",
-      name: "Product 1",
-      alt: "Alt Text 1",
+      images: "https://down-id.img.susercontent.com/file/id-11134207-7r98w-lmisz5afs8x041",
+      name: "ZARA BAG PREMIUM CLASSIC",
+      alt: "ZARA BAG PREMIUM CLASSIC",
       statusProduk: "Tersedia",
-      url: "/product-details1",
+      url: "https://shopee.co.id/ZARA-BAG-PREMIUM-CLASSIC-i.296344657.20393869410?sp_atk=bb83c0c0-4162-479b-90b5-2941b89a0b2e&xptdk=bb83c0c0-4162-479b-90b5-2941b89a0b2e",
     },
-    {
-      images: "path/to/image2.jpg",
-      name: "Product 2",
-      alt: "Alt Text 2",
-      statusProduk: "Tidak Tersedia",
-      url: "/product-details2",
-    },
-    // Add more products as needed
   ];
 
   getColorClass(status: string): string {

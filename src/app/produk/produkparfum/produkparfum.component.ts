@@ -13,6 +13,7 @@ import { NzCardModule } from "ng-zorro-antd/card";
   styleUrls: ["./produkparfum.component.css"],
 })
 export class ProdukparfumComponent {
+  title = "Parfum";
   listParfum = [
     {
       images: "https://down-id.img.susercontent.com/file/id-11134207-7r990-lmr9pwceva5g4a",
@@ -35,8 +36,22 @@ export class ProdukparfumComponent {
       statusProduk: "Tersedia",
       url: "https://shopee.co.id/-SUPER-PREMIUM-Parfum-Bulat-Byredo-30ml-i.296344657.21185068157",
     },
+    {
+      images: "https://down-id.img.susercontent.com/file/fd11907f0c04d1e254effeffd1b64ab4",
+      name: "INSPIRED PARFUM LELABO LE LABO 30ml",
+      alt: "INSPIRED PARFUM LELABO LE LABO 30ml",
+      statusProduk: "Tersedia",
+      url: "https://shopee.co.id/INSPIRED-PARFUM-LELABO-LE-LABO-30ml-i.296344657.16683656598?sp_atk=8586c394-34a5-49f3-bbbc-fcf2a18f4eeb",
+    },
+    {
+      images: "https://down-id.img.susercontent.com/file/id-11134207-7r98u-lmor1to1kzhnfd",
+      name: "[SUPER PREMIUM] Parfum Korea BTS 30ml Premium / Parfum Korea BTS Limited Edition 30ml",
+      alt: "[SUPER PREMIUM] Parfum Korea BTS 30ml Premium / Parfum Korea BTS Limited Edition 30ml",
+      statusProduk: "Tersedia",
+      url: "https://shopee.co.id/-SUPER-PREMIUM-Parfum-Korea-BTS-30ml-Premium-Parfum-Korea-BTS-Limited-Edition-30ml-i.296344657.23957425491",
+    },
   ];
-items: any;
+  items: any;
 
   getColorClass(status: string): string {
     return status === "Tersedia" ? "bg-green-500 text-white" : "bg-red-500 text-white";
