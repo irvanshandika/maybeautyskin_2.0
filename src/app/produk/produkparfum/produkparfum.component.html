@@ -4,7 +4,7 @@
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
     <div class="group relative rounded-lg overflow-hidden bg-white" *ngFor="let items of listParfum">
       <img src="{{ items.images }}" alt="{{ items.alt }}" width="300" height="300" class="object-cover w-full aspect-square" />
-      <h3 class="font-semibold transition-colors text-center my-4">{{ items.name }}</h3>
+      <h3 class="font-semibold transition-colors text-center px-2 my-4">{{ items.name }}</h3>
       <div class="p-4">
         <div class="grid justify-center">
           <span [ngClass]="getColorClass(items.statusProduk) + ' text-green-800 text-xs font-medium w-[130px] px-3 py-2 rounded mb-4 text-center'">
